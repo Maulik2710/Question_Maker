@@ -1,7 +1,7 @@
 from PyPDF2 import PdfReader
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyCE_iYZEKcioMkRBCIFy6_CoxyakGaQN0Y")
+genai.configure(api_key = APIKEY)
 
 def reading(location,Start_page_number,End_page_number):
     reader = PdfReader(location)
